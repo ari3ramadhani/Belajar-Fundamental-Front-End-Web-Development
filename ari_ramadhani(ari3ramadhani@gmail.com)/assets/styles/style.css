@@ -1,0 +1,302 @@
+
+* {
+   box-sizing: border-box;
+}
+ header {
+   display: inline;
+}
+ 
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+ 
+main {
+   padding: 20px;
+   overflow: auto;
+}
+h2, h3 {
+   color:  #4CAF50; 
+   text-align: center;
+font-size: 35px;
+font-family: "Courier New", Courier, monospace;
+ text-decoration: underline;
+}
+nav a {
+    font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+nav a:hover {
+   font-weight: bold;
+}
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #4CAF50;
+   text-align: center;
+   font-weight: bold;
+   border-top-right-radius: 25px;
+   border-top-left-radius: 25px;
+}
+
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+.featured-image1 {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+   border-top-left-radius: 40px;
+   border-bottom-right-radius: 50px;
+   padding-right: 10px;
+}
+
+.featured-image2 {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+   
+}
+
+
+.zoom-effect:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+
+   box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profile img {
+   width: 200px;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #ffff;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+
+   box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2);
+   
+}
+
+.container{
+    display:flex ; flex-direction: row;
+    flex-wrap: wrap;
+     justify-content: center;
+} 
+
+.lombabagian {
+   font-size: 20px;
+   padding: 15px;
+   margin: 5px;
+   background-color: #ffff;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2);
+   width: auto;
+   position: relative;
+ margin-bottom: 15px;
+ 
+}
+
+ @media screen and (max-width: 1000px) {
+  .lombabagian,
+   aside {
+       width: 100%;
+       padding: 0;
+       margin-bottom: 15px;
+   }
+}
+
+
+
+.pengluar {
+   font-size: 20px;
+   padding: 15px;
+   margin: 5px;
+   background-color: #ffff;
+   text-align: center;
+   background: none;
+   border-style:ridge;
+   font-weight: bold;
+   border-radius: 25%;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2);
+   max-width: 450px;
+   position: relative;
+ margin-bottom: 15px;
+ 
+}
+
+
+ol li{
+  text-align: left;
+
+}
+
+ @media screen and (max-width: 1000px) {
+  .pengluar,
+   aside {
+       width: 100%;
+       padding: 0;
+       margin-bottom: 15px;
+   }
+}
+
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+#content1 {
+   float: left;
+   width: 17%;
+}
+ @media screen and (max-width: 1000px) {
+   #content1,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+#content2 {
+   float: left;
+   width: 45%;
+
+}
+
+ @media screen and (max-width: 1000px) {
+   #content2,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+#lombadalem {
+   float: left;
+   width: auto;
+   margin: 5px;
+}
+ @media screen and (max-width: 1000px) {
+   #lombadalem,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+.subMenu ul {
+  background-color: #4CAF50; /* Warna background menu */
+  max-width: 100%; /* Lebar maksimal menu */
+  overflow-x: auto;
+}
+.subMenu {
+  height: 50px;
+  z-index: 100;
+  width: 100%;
+  
+}
+.subMenu a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 13px;
+  line-height: 1.5em;
+  display: block;
+  border-bottom-right-radius: 27px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 22px;
+
+}
+
+.subMenu ul, .subMenu li {
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.active {
+  background: #673ab7;
+}
+.end {
+  margin: 0;
+}
+
+p { text-align: justify;
+font-size: 18px;
+text-indent: 30px;
+}
+li {
+  text-align: justify;
+font-size: 18px;
+}
+
+
+ nav {
+
+ position: fixed;
+
+ width: 100%;
+padding: 0px;
+ top: 0;
+
+ background-color: #4CAF50;
+
+ text-align: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+ }
+
+
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 992px */
+@media screen and (max-width: 992px) {
+  ........
+ }
+  /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 600px */
+ @media screen and (max-width: 600px) {
+    ........
+ }
+ @media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
